@@ -1,0 +1,14 @@
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading {
+    text-align: center;
+    flex-direction: column;
+}
+
+.hobbies {
+    padding: 3%;
+}
