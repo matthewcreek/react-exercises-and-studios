@@ -1,15 +1,21 @@
 
 import './App.css'
 import RecipeDescription from './components/Description'
+import RecipeIngredients from './components/Ingredients'
+import RecipePhoto from './components/Photos'
 
 function App() {
 
   return (
-    <>
-      <div className="App">
-        <RecipeDescription />
+    <div className="App">
+      <div>
+          <RecipePhoto />
+          <div>
+            <RecipeDescription />
+            <RecipeIngredients />
+          </div>
       </div>
-    </>
+    </div>
   )
 }
 
