@@ -1,18 +1,18 @@
 import styles from './Description.module.css'
-import React from 'react';
+import React from 'react'
 
 function RecipeAuthor() {
 
-    const authorLink = 'https://dailydishrecipes.com/about-us/'
-    const authorPhoto = 'https://dailydishrecipes.com/wp-content/uploads/2019/06/36358788_10204469121963976_8049450332603809792_n-300x300.jpg'
-    const authorName = 'Nicole Cook'
+    let authorLink = 'https://whatsgabycooking.com/about-2/'
+    let authorPhoto = 'https://whatsgabycooking.com/wp-content/uploads/2022/03/HeadShotXL.png'
+    let authorName = 'Gabby Dalkin'
 
     return (
         <div className={styles.recipeAuthorBlock}>
-            <img src={authorPhoto} alt="Nicole Cook headshot" className={styles.imageUpdates}/>
+            <img src={authorPhoto} alt="Author Photo" className={styles.imageUpdates} />
             <div>
                 <h3>{authorName}</h3>
-                <a href={authorLink}>Blog Name</a>
+                <a href={authorLink}>What&apos;s Gabby Cooking</a>
             </div>
         </div>
     )
@@ -20,7 +20,7 @@ function RecipeAuthor() {
 
 class RecipeDescription extends React.Component {
     render() {
-        return(
+        return (
             <div> 
                 <div>
                     <h1>Recipe Title</h1>
