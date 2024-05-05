@@ -1,5 +1,20 @@
+import recipeData from './recipe.json'
+import './styling.css'
+
 function AuthorInfo() {
-   return;
+   return (
+    <div>
+      {recipeData.map(recipe => {
+        return (
+          <div key={recipe.name}>
+            <h3>{recipe.author}</h3>
+            <img src={recipe.authorImage} alt={recipe.author} className='authorImage' />
+            <a href={recipe.website}>What's Gabby Cooking?</a>
+          </div>
+        )
+      })}
+    </div>
+   );
  }
  
  export default AuthorInfo;

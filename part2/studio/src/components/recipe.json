@@ -1,17 +1,21 @@
 [
    {
-     "name": "Stovetop Mac and Cheese",
-     "author": "Stephanie Melchione",
-     "description": "This Creamy Stovetop Mac and Cheese is the BEST 30-minute meal for a busy week. Your family will love it every time!",
-     "website": "https://thecozycook.com/stovetop-mac-and-cheese/",
-     "recipeImage": "https://thecozycook.com/wp-content/uploads/2021/10/Stovetop-Mac-and-Cheese-2.jpg",
-     "authorImage": "https://thecozycook.com/wp-content/uploads/2021/11/The-Cozy-Cook.jpg",
+     "name": "Grilled Cheese",
+     "author": "Gabby Dalkin",
+     "description": "Decadent melty cheese sandwiched between crispy slices of whole-grain bread.",
+     "website": "https://whatsgabycooking.com/about-2/",
+     "recipeImage": "https://whatsgabycooking.com/wp-content/uploads/2022/11/WGC-__-Grilled-Cheese-7.jpg",
+     "authorImage": "https://whatsgabycooking.com/wp-content/uploads/2022/03/HeadShotXL.png",
      "ingredients": [
-       "uncooked macaroni",
-       "butter",
-       "flour",
-       "heavy cream",
-       "milk"
+      "6 tablespoons unsalted butter",
+      "8 slices sourdough or french bread",
+      "2 tablespoons mayonnaise",
+      "3 tablespoons finely shredded Parmesan cheese",
+      "½ cup shredded sharp white cheddar cheese",
+      "½ cup shredded Monterey Jack cheese",
+      "½ cup shredded Gruyere cheese",
+      "4 ounces Brie cheese",
+      "Ketchup for dipping"
      ]
    }
  ]
