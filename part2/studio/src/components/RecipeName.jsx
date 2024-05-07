@@ -1,7 +1,8 @@
-import recipedata from "./recipe.json";
+import recipeData from "./recipe.json";
+let recipe = recipeData[0]
 
 function RecipeName() {
-  return <h1>{recipedata[0].name}</h1>;
+  return <h1>{recipe.name}</h1>;
 }
 
 export default RecipeName;

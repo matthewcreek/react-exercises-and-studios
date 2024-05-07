@@ -1,12 +1,13 @@
 import recipeData from './recipe.json'
+import './styling.css'
+let recipe = recipeData[0]
 
 function RecipeImage() {
-  let recipe = recipeData[0]
-  return (
+   return (
     <div>
-      <img src={recipe.recipeImage} alt={recipe.name} className='recipeImage'/>
+      <img src={recipe.recipeImage} alt={recipe.name} className='recipeImage' />;
     </div>
-  )
+   )
  }
  
  export default RecipeImage;

@@ -1,5 +1,7 @@
 import recipeData from './recipe.json'
 
+import recipeData from './recipe.json'
+
 function IngredientList() {
   let ingredients = recipeData[0].ingredients
   return (
